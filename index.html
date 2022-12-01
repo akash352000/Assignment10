@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        Akashkumar Vaddoriya
+    </h1>
+
+    <p id="messageDisplay"></p>
+
+    <div class="two-thirds column" id="main">
+        <form id="form" action="/register/" method="post">
+            <fieldset>
+                <legend>Registration form</legend><br>
+
+                <label for="username">User Name:</label>
+                <input type="text" id="username" placeholder="Enter your name" required/> <br><br>
+
+                <label for="pwd">Password:</label>
+                <input type="Password" id="pwd" placeholder="Enter your Password"  required/> <br><br>
+
+                <label for="cnpwd"> Confirm Password:</label>
+                <input type="Password" id="cnpwd" placeholder="Re-Enter your Password" required/> <br><br>
+
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+                <label for="checkbox"> I accept the terms of service</label><br> <br>
+
+                <label for="country">Select your country</label>
+                <select id="country" name="country" required>
+                    <option value="choose">Select your country</option>
+                </select><br><br>
+
+                <input  id="submit" type="submit" value="submit" />
+            </fieldset>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
